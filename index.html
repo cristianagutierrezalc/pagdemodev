@@ -633,8 +633,8 @@
            (ej. al desplegar en producción) sin tocar el resto del código.
         ===================================================== */
         const API_BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
-            ? 'http://127.0.0.1:8000'
-            : ''; // En producción, sirve el frontend desde el mismo dominio que la API o define la URL aquí.
+        ? 'http://127.0.0.1:8000'
+        : 'https://pagdemodev.onrender.com'; // En producción, sirve el frontend desde el mismo dominio que la API o define la URL aquí.
         const WHATSAPP_NUMBER = '573188441670';
         const DELIVERY_FEE = 5000;
         const CART_STORAGE_KEY = 'fuegoYCarbon.cart.v1';
@@ -1073,4 +1073,4 @@
         loadCatalog();
     </script>
 </body>
-</html>
+</html
